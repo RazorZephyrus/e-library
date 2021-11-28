@@ -9,7 +9,5 @@ class PublicUser extends Model
 {
     use HasFactory;
 
-    protected $atrributes = [
-        "id_number"
-    ];
+    protected $primaryKey = "users_id";
 }
